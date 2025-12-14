@@ -12,3 +12,4 @@ D:\C# Journey\TextBasedRPGGame\TextBasedRPGGame\obj\Debug\net10.0\refint\TextBas
 D:\C# Journey\TextBasedRPGGame\TextBasedRPGGame\obj\Debug\net10.0\TextBasedRPGGame.pdb
 D:\C# Journey\TextBasedRPGGame\TextBasedRPGGame\obj\Debug\net10.0\TextBasedRPGGame.genruntimeconfig.cache
 D:\C# Journey\TextBasedRPGGame\TextBasedRPGGame\obj\Debug\net10.0\ref\TextBasedRPGGame.dll
+D:\C# Journey\TextBasedRPGGame\TextBasedRPGGame\obj\Debug\net10.0\TextBasedRPGGame.sourcelink.json

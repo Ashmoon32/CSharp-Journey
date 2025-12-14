@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\C# Journey\\SimpleBackendWebAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A67DD286-5BAB-44A9-9606-0C96DDE89AC8}|SimpleBackendWebAPI\\SimpleBackendWebAPI.csproj|d:\\c# journey\\simplebackendwebapi\\simplebackendwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A67DD286-5BAB-44A9-9606-0C96DDE89AC8}|SimpleBackendWebAPI\\SimpleBackendWebAPI.csproj|solutionrelative:simplebackendwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A67DD286-5BAB-44A9-9606-0C96DDE89AC8}|SimpleBackendWebAPI\\SimpleBackendWebAPI.csproj|d:\\c# journey\\simplebackendwebapi\\simplebackendwebapi\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A67DD286-5BAB-44A9-9606-0C96DDE89AC8}|SimpleBackendWebAPI\\SimpleBackendWebAPI.csproj|solutionrelative:simplebackendwebapi\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A67DD286-5BAB-44A9-9606-0C96DDE89AC8}|SimpleBackendWebAPI\\SimpleBackendWebAPI.csproj|d:\\c# journey\\simplebackendwebapi\\simplebackendwebapi\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A67DD286-5BAB-44A9-9606-0C96DDE89AC8}|SimpleBackendWebAPI\\SimpleBackendWebAPI.csproj|solutionrelative:simplebackendwebapi\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\C# Journey\\SimpleBackendWebAPI\\SimpleBackendWebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "SimpleBackendWebAPI\\Program.cs",
+              "ToolTip": "D:\\C# Journey\\SimpleBackendWebAPI\\SimpleBackendWebAPI\\Program.cs",
+              "RelativeToolTip": "SimpleBackendWebAPI\\Program.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T03:42:03.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ItemController.cs",
+              "DocumentMoniker": "D:\\C# Journey\\SimpleBackendWebAPI\\SimpleBackendWebAPI\\Controllers\\ItemController.cs",
+              "RelativeDocumentMoniker": "SimpleBackendWebAPI\\Controllers\\ItemController.cs",
+              "ToolTip": "D:\\C# Journey\\SimpleBackendWebAPI\\SimpleBackendWebAPI\\Controllers\\ItemController.cs",
+              "RelativeToolTip": "SimpleBackendWebAPI\\Controllers\\ItemController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T03:33:11.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Item.cs",
+              "DocumentMoniker": "D:\\C# Journey\\SimpleBackendWebAPI\\SimpleBackendWebAPI\\Item.cs",
+              "RelativeDocumentMoniker": "SimpleBackendWebAPI\\Item.cs",
+              "ToolTip": "D:\\C# Journey\\SimpleBackendWebAPI\\SimpleBackendWebAPI\\Item.cs",
+              "RelativeToolTip": "SimpleBackendWebAPI\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T03:30:48.142Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
