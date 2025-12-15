@@ -46,6 +46,12 @@ namespace TextBasedRPGGame
                 }
             }
 
+            Console.WriteLine("=========================================");
+            Console.WriteLine("Important Note : You have 10  attempts ( 5 attempts is your action and the other 5 attempts is your response for monster attacks) to defeat the monster. And you can also choose when the monster attacks you back. If the monster doesn't die in 5 attempts, you lose the game.");
+            Console.WriteLine("=========================================");
+            Console.WriteLine("You see the normal monster! What is your action?");
+            Console.WriteLine("=========================================");
+
 
             try
             {
@@ -57,10 +63,10 @@ namespace TextBasedRPGGame
 
                     for (monsterCounterAttack = 1; monsterCounterAttack <= 10; monsterCounterAttack++)
                     {
-                        if (monsterCounterAttack % 2 == 0)
+                        if (monsterCounterAttack % 2 == 0 && NormalMonsterHealth > 0)
                         {
                             string counterChoice;
-                            Console.WriteLine("Monster Attacks You! What is your counter actions? Choose your action");
+                            Console.WriteLine("Monster is attacking you! What is your counter actions? Choose your action");
                             Console.WriteLine("==================================");
                             Console.Write("1. Attack back, 2. Defend, 3. Run (Default is defend!): ");
 
@@ -117,7 +123,7 @@ namespace TextBasedRPGGame
                                 choice = Console.ReadLine();
                                 int intChoice = Convert.ToInt32(choice);
 
-                                if (intChoice == 1 || intChoice == 2 || intChoice == 3 || intChoice == 4)
+                                if (intChoice == 1 || intChoice == 2 || intChoice == 3 || intChoice == 4 || NormalMonsterHealth > 0)
                                 {
                                     switch (intChoice)
                                     {
@@ -162,6 +168,7 @@ namespace TextBasedRPGGame
                                 Console.WriteLine($"Your Health: {PlayerHealth}%, Mana: {PlayerMana}%, Stamina: {PlayerStamina}%");
                                 Console.WriteLine($"Monster Health: {NormalMonsterHealth}%");
                                 break;
+
 
                             }
                         }
