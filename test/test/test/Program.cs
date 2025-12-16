@@ -1,54 +1,82 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Reflection.Metadata.Ecma335;
+using System.Text;
+using System.Threading.Channels;
 
-namespace Variables
+namespace test.calculator
 {
-    class Program
+    class program
     {
-        static void Main(string[] args) {
-            //var number = 3;
-            //var count = 10;
-            //var totalPrice = 20.95f;
-            //var character = 'A';
-            //var firstName = "Ashmoon";
-            //var isLearning = true;
-            //Console.WriteLine(number);
-            //Console.WriteLine(count);
-            //Console.WriteLine(totalPrice);
-            //Console.WriteLine(character);
-            //Console.WriteLine(firstName);
-            //Console.WriteLine(isLearning);
+        static void Main(string[] args)
+        {
 
-            Console.WriteLine("{0} {1}", byte.MinValue, byte.MaxValue);
-            Console.WriteLine("{0} {1}", float.MinValue, float.MaxValue);
-
-            int i = 1000;
-            byte b = (byte) i;
-            Console.WriteLine(b);
-
-            try
+            double num1, num2, result;
+            bool isChoice = true;
+            Console.WriteLine("Welcome to the Calculator!");
+            do
             {
-                //var number = "1234";
-                //byte I = Convert.ToByte(number);
-                //Console.WriteLine(I);
-
-                string str = "true";
-                bool c = Convert.ToBoolean(str);
-                Console.WriteLine(c);
-            }
-            catch (Exception)
-            {
-                Console.WriteLine("The number could not be converted to a byte!");
-            }
-
-            int aa = 1;
-            int bb = aa++;
-            Console.WriteLine(aa);
-            Console.WriteLine(bb);
+                Console.WriteLine("Select an operation you want to perform from 1 - 5.(Default is Addition!)");
+                Console.WriteLine("1. Addition");
+                Console.WriteLine("2. Subtraction");
+                Console.WriteLine("3. Multiplication");
+                Console.WriteLine("4. Division");
+                Console.WriteLine("5. Exit");
+                Console.Write("Your choice: ");
+                string choice = Console.ReadLine();
 
 
-            var A = 10;
-            var B = 3;
-            Console.WriteLine((float)A != (float)B);
+                if(choice == "5")
+                {
+                    Console.WriteLine("Bye! Have a nice day...");
+                    isChoice = false;
+                }
+                else
+                {
+                    Console.Write("Enter first number: ");
+                    num1 = Convert.ToDouble(Console.ReadLine());
+                    Console.Write("Enter second number: ");
+                    num2 = Convert.ToDouble(Console.ReadLine());
+
+                    switch (choice)
+                    {
+                        case "1":
+                            result = num1 + num2;
+                            Console.WriteLine($"{num1} + {num2} = {result}");
+                            break;
+                        case "2":
+                            result = num1 - num2;
+                            Console.WriteLine($"{num1} - {num2} = {result}");
+                            break;
+                        case "3":
+                            result = num1 * num2;
+                            Console.WriteLine($"{num1} * {num2} = {result}");
+                            break;
+                        case "4":
+                            result = num1 / num2;
+                            if(num2 == 0)
+                            {
+                                Console.WriteLine("Invalid input! Cannot divided by zero!");
+                            }
+                            else
+                            {
+                                Console.WriteLine($"{num1} / {num2} = {result}");
+                            }
+                                break;
+                        case "5":
+                            Console.WriteLine("Bye! Have a nice day...");
+                            isChoice = false;
+                            break;
+
+                        default:
+                            result = num1 + num2;
+                            Console.WriteLine($"{num1} + {num2} = {result}");
+                            break;
+                    }
+                    Console.WriteLine("===========================================================");
+                }                                  
+            } while (isChoice == true);
         }
     }
 }
+
